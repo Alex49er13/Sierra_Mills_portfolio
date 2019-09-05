@@ -1,0 +1,46 @@
+<div class="col-10 offset-1 about">
+  <h1>About Splurty</h1>
+
+ <p>
+    Splurty was built by <a target="_blank" href="http://github.com/Alex49er13">Sierra Mills</a> 
+  </p>
+  <br />
+  <p> Sierra is a mother of 3 looking to inspire and cultivate. She is attending a Boot Camp for full stack web development and will be joining the work force this coming <strong>september!!</strong> 
+   
+  </p>
+  <p>
+    If you want to learn how to code - start <a target="_blank" href="https://online.bootcampspot.com"> here</a>.
+  </p>
+
+  <div class="row">
+    <div class="col-12 col-sm-4">
+      <%= image_tag 'Sierra.jpg', class: 'img-fluid' %>
+    </div>
+
+    <div class="col-12 col-sm-7 offset-sm-1">
+      <h2 class="text-center">Sierra Mills</h2>
+      <br />
+      <p>
+     For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return. 
+     <b/>
+      Leonardo da Vinci
+    </div>
+  </div>
+</div>
+  <br class="clear" />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+</div>
+
+<%
+=begin%>
+ 
+<%= render 'form', me: @me %> 
+<%
+=end%>
+
+<%= link_to 'Back', mes_path %>
