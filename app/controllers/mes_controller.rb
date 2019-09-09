@@ -2,10 +2,14 @@ class MesController < ApplicationController
   # before_action :set_me, only: [:show, :edit, :update, :destroy]
 
   def code_examples
-    
-
   end
 
+  def applications
+  end
+
+  def resume
+  end
+  
   # GET /mes
   # GET /mes.json
   def index

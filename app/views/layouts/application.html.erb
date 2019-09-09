@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>Sierra R Mills</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -14,11 +14,11 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <%= link_to 'Flixter', root_url, class: 'navbar-brand' %>
+  <%= link_to 'Sierra R Mills', root_url, class: 'navbar-brand' %>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav float right-lg-right">
       <li class=" nav-item">
-        <%= link_to 'See All Courses', "#", class:'nav-link' %>
+        <a target="_blank" href="https://medium.com/@alex49er13/week-two-of-the-rest-of-my-life-73d43315b8c0">Blog</a> 
       </li>
       
     </ul>
@@ -34,9 +34,13 @@
 
       <div id="footer">
       <div class="container">
-         <b>Teachers</b>
+         
     <br />
-    <%= link_to 'Teach a Course', "#" %>
+    <%
+=begin%>
+ <%= link_to 'Future', me_future_path %> 
+<%
+=end%>
       </div>
     </div>
     <script src="https://vjs.zencdn.net/5.12.6/video.js"></script>

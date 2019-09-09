@@ -37,13 +37,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .frosty h1{
   font-family: 'Cinzel', serif;
   font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  text-shadow: rgba(43, 41, 41, 0.95) 1px 1px;
 }
 
 .frosty h2{
   font-family: 'East Sea Dokdo', cursive;
   font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  text-shadow: rgba(56, 54, 54, 0.95) 1px 1px;
 }
 
 .btn{
@@ -107,3 +107,59 @@ font-family: 'Lobster', cursive;
  
 .ul{list-style-type: none;
  }
+
+.extras{
+  color: rgba(93, 8, 228, 0.5);
+  font-size: 20px;
+  font-weight: bold;
+}
+.extras p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+span a {
+  display: inline;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: rgb(243, 243, 237); 
+}
+span b {
+  display: inline;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: rgb(243, 243, 237); 
+}
+.full-width {
+  width: 100%;
+}
+.skills-and-tools {
+  max-width: 400px;
+}
+.icon {
+  margin: 30px 0;
+}
+.box {
+  float: left;
+
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 80px;
+}
+h4 {
+  text-align: center;
+  font-size: 24px;
+}
+p {
+  text-align: center;
+}
+.yellow {
+  border-top: 5px double #F5A623;
+}
+.clear {
+  clear: both;
+}
