@@ -1,48 +1,133 @@
-<h3>Code Snippets</h3>
-<hr class="yellow">
-
-<div class="box">
-  <h4>Temperature Conversion</h4>
-  <p>
-    This Ruby program will prompt the user for a temperature
-    in degrees Celsius and let the user know what the
-    corresponding temperature is in Fahrenheit.
-  </p>
+<div class="code">
+Code Snippets
 </div>
+<br/>
+<br/>
+<br/>
+<br/>	
 
-<div class="box">
-  Right Side
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" >
+		<h4>Temperature Conversion</h4>
+		<p>
+			This Ruby program will prompt the user for a temperature
+			in degrees Celsius and let the user know what the
+			corresponding temperature is in Fahrenheit.
+ 		</p>
+		</div>
+
+
+<div class="col-sm-6" >
+	
+n=0<br/>
+puts &quot;Enter degrees in Celcius:&quot;<br/> 
+cel = gets.chomp.to_f <br/>
+
+
+ fahrenheit = (cel * 9/5) + 32 <br/>
+
+ puts &quot;The temerature is #{fahrenheit} degrees in fahrenheit&quot;<br/>
+ puts &quot;goodbye&quot;
+		</div>		
+	</div>
 </div>
+<br/>
+<br/>
 
 <br class="clear" />
 
-<div class="box">
-  Left Side
-</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" >
+n=0<br/>
+puts &quot;enter a number&quot;<br/>
+number = gets.chomp.to_i<br/>
 
-<div class="box">
-  <h4>Ordinal Challenge</h4>
-  <p>
-    This Ruby program will convert a plain number
-    to the ordinal of the number. So for example,
-    if the user enters 2, it will display 2nd, if
-    the user enters 3, it will display 3rd, etc.
-  </p>
+def right_most_number(number)<br/>
+
+if number ==13 ||number ==11 || number == 12<br/>
+return 'th'<br/>
+end <br/>
+
+number = number % 10<br/>
+
+
+if number == 1<br/>
+return 'st'<br/>
+
+elsif number == 2<br/>
+return 'nd'<br/>
+
+elsif number == 3<br/>
+return 'rd'<br/>
+
+else<br/>
+return 'th'<br/>
+
+end<br/>
+end<br/>
+
+puts &quot;Thats the #{number}#{right_most_number(number)} item!&quot;<br/>
+puts &quot;goodbye&quot;<br/>
+
+
+
+		</div>
+
+ <div class="col-sm-6" >
+		<h4>Ordinal Challenge</h4>
+		<p>
+			This Ruby program will convert a plain number
+			to the ordinal of the number. So for example,
+			if the user enters 2, it will display 2nd, if
+			the user enters 3, it will display 3rd, etc.
+ 		</p>
+		</div>
+	</div>		
 </div>
+<br/>
+<br/>
 
 <br class="clear" />
 
-<div class="box">
-  <h4>Foobar</h4>
-  <p>
-    This Ruby program is an adaptation of a classic technical
-    interview problem which displays sequences
-    of the Foobar pattern.
-  </p>
-</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" >
+			<h4>Foobar</h4>
+			<p>
+				This Ruby program is an adaptation of a classic technical
+				interview problem which displays sequences
+				of the Foobar pattern.
+			</p>
+		</div>
 
-<div class="box">
-  Right Side
+
+<div class="col-sm-6" >
+n=0<br/>
+puts &quot;How many items do you want to see?&quot;<br/>
+user_input = gets.chomp.to_i<br/>
+user_input.times do |number|<br/>
+number += 1 <br/>
+foo = number % 3<br/>
+bar = number % 5<br/>
+if <br/>
+foo == 0 &amp;&amp; bar == 0<br/>
+print &quot;foobar &quot;<br/>
+elsif<br/>
+foo == 0<br/>
+print &quot;foo &quot;<br/>
+elsif<br/>
+bar == 0<br/>
+print &quot;bar &quot;<br/>
+else<br/>
+print &quot;#{number} &quot;<br/>
+end<br/>
+end<br/>
+puts &quot;goodbye&quot;<br/>
+
+		</div>
+	</div>		
 </div>
 
 <br class="clear" />
